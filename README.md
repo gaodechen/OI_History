@@ -1,0 +1,803 @@
+## OI History
+
+- 记录了高中时期OI代码，来自HDU、BZOJ、POJ、SPOJ等等。
+- **Algorithm** and **OJ List** 是部分题号列表，标注了算法、数据结构类型。
+- 如今上传，作为Git历史的一部分。
+
+## Abbreviation
+
+当年的蹩脚缩写如表。像是FST这类已经忘了当年怎么起的名了。其他翻译基本无异议的不再列出。
+
+
+| DP                     | Dynamic Programming               | 动态规划     |
+|------------------------|-----------------------------------|--------------|
+| MST                    | Minimum Spanning Tree             | 最小生成树   |
+| CRT                    | Chinese Remainder Theorem         | 中国剩余定理 |
+| IEP                    | The Inclusion-Exclusion Principle | 容斥原理     |
+| UFS                    | Union-Find Set                    | 并查集       |
+| LCA                    | Least Common Ancestors            | 最近公共祖先 |
+| BPG                    | Bi-Partite Graph                  | 二分图       |
+| BPWG                   | Bi-Partite Weighted Graph         | 二分带权图   |
+| SP                     | Shortest Path                     | 最短路       |
+| SCC                    | Strong Connected Component        | 强连通分量   |
+| BCC                    | Bi-Connected Component            | 双连通分量   |
+| BIT                    | Binary Indexed Tree               | 树状数组     |
+| FST                    |  F? Segment Tree                                 | 可持久化线段树   |
+| KMP | Knuth-Morris-Pratt | KMP算法 |
+| LCT | Link-Cut Tree | 动态树 |
+| ST | Sparse Table | 倍增稀疏表 |
+| AC Automaton | Aho-Corasick Automaton | AC自动机 |
+| SDC                    | System of Difference Constraints  | 差分约束     |
+| BSGS                   | Baby Step Giant Step              | 大步小步     |
+| HLD                    | Heavy-Light Decomposition         | 树链剖分     |
+| Mobius                 |                                   | 莫比乌斯反演 |
+| Lucas | | Lucas定理|
+| State Compression      |                                   | 状态压缩     |
+| Iterative Deepening    |                                   | 迭代加深     |
+| Dilworth               |                                   | Dilworth引理 |
+| Vertex/Path Cover      |                                   | 点/路径覆盖  |
+| DP on Graph            |                                   | DAG动态规划  |
+| Flow with Bound        |                                   | 有界流       |
+| Analog Stack           |                                   | 模拟栈       |
+| Monotone Nature        |                                   | 利用单调性质 |
+| Ad Hoc                 |                                   | 随意         |
+| Secondary SP           |                                   | 次短路       |
+| Cut Vertex/Edge        |                                   | 割点/边      |
+| Group Theory           |                                   | 群论         |
+| Planar Graph           |                                   | 平面图       |
+| Density Subgraph           |                                   | 密度子图       |
+| Mixed Euler Graph      |                                   | 混合欧拉图   |
+| Fractional Programming |                                   | 分数规划     |
+| Cyclic Tree            |                                   | 环状树       |
+|Mergable Heap||可并堆|
+| Combotree              |                                   | 树套树       |
+| Binary Checking        |                                   | 二分判别     |
+| Centroid/Diameter      |                                   | 树重心/直径  |
+| Matrix Tree            |                                   | 矩阵树定理   |
+| Heuristic Merging| |启发式合并|
+| Ensemble Bisection | | 整体二分 |  
+
+## Problems List
+
+
+* [[2015-06-11]]
+	- 18:48		HDU		1171		DP, Knapsack Problem
+	- 21:15		CodeVS	1225		BFS Search & Hash
+	- 23:30		Luogu	1064		DP, Knapsack Problem
+	- 00:17		CodeVS	1297		DP, Knapsack Problem
+* [[2015-06-12]]
+	- 10:30		UVa		10382		Greedy Method
+	- 14:26		UVa		1354		Search
+	- 19:51		UVa		10780		Number Theory
+	- 21:28		UVa		10892		Number Theory
+	- 23:28		HDU		2147		Game Theory
+* [[2015-06-13]]
+	- 10:53		UVa		562			DP, Knapsack Problem
+	- 14:46		HDU		3415		Monotone Nature
+	- 15:30		UVa		674			DP, Knapsack Problem
+	- 16:19		POJ		2524		Union-Find Set
+	- 00:40		BZOJ	2705		Number Theory
+* [[2015-06-14]]
+	- 09:25		POJ		1797		MST
+	- 10:06		UVa		147			DP, Knapsack Problem
+	- 16:02		HDU		3033		DP, Knapsack Problem
+	- 19:47		UVa		12171		Flood Fill
+	- 21:38		POJ		1947		DP on Tree
+	- 23:32		POJ		2486		DP on Tree
+	- 00:37		HDU		3672		DP on Tree
+* [[2015-06-15]]
+	- 23:20		Luogu	1020		DP LIS NlogN & Dilworth
+* 2015-06-16
+	- 19:53		HDU		2824		Number Theory
+	- 21:09		CodeVS	1137		Combination Math
+	- 01:23		Luogu	1734		DP, Knapsack Problem & Number Theory
+* [[2015-06-17]]
+	- 08:20		POJ		2502		SP
+	- 09:25		HDU		5266		2-Mul, LCA & Segment Tree
+	- 10:33		POJ		1155		DP on Tree
+	- 15:10		HDU		2639		DP, Knapsack Problem kth
+	- 19:30		CodeVS	1003		MST
+	- 19:54		HDU		3535		DP, Knapsack Problem
+	- 22:11		BZOJ	2226		Number Theory
+* 2015-06-18
+	- 19:48		HDU		2136		Number Theory
+	- 22:38		HDU		3466		Greedy Method & DP, Knapsack Problem
+	- 22:40		SGU		259			Greedy Method
+* 2015-06-19
+	- 19:41		HDU		2126		DP, Knapsack Problem
+	- 22:45		HDU		2089		DP, Digital Problem
+* 2015-06-20
+	- 10:21		HDU		2955		DP, Knapsack Problem
+	- 21:34		POJ		3255		SP, Secondary SP
+	- 23:15		UVa		12166		DFS
+* 2015-06-21
+	- 14:51		CodeVS	1006		DP
+	- 16:57		HDU		3579		Number Theory, CRT
+	- 20:24		HDU		1573		Number Theory, CRT
+	- 21:26		POJ		2115		Number Theory, GCD
+	- 23:51		BZOJ	2818		Number Theory, Euler
+* 2015-06-23
+	- 11:21		POJ		3497		Binary Checking
+	- 14:46		UVa		1267		Greedy Method
+	- 14:52		UVa		1121		Monotone Nature, Prefix
+	- 17:33		UVa		116			DP, Path Printing
+	- 20:17		UVa		11549		Floyd Cycle Detection
+	- 21:11		UVa		1025		DP
+* 2015-06-24
+	- 07:55		BZOJ	1588		Splay
+	- 12:59		UVa		11212		Iterative Deepening
+	- 17:57		POJ		1064		Binary Checking
+* [[2015-06-25]]
+	- 07:46		POJ		1860		SP, BellmanFord Cycle
+	- 08:07		POJ		2240		SP, Floyd
+	- 08:56		POJ		3013		SP, SPFA
+	- 19:07		POJ		3159		SP, SDC
+	- 00:35		POJ		3615		SP, Floyd
+* [[2015-06-26]]
+	- 08:29		UVa		12563		DP, Knapsack Problem
+	- 08:45		UVa		1347		DP, Bitonic Tour
+	- 14:54		POJ		3190		Greedy Method
+	- 21:25		POJ		2773		Number Theory, IEP & Binary Checking
+	- 22:29		HDU		2576		Number Theory
+* [[2015-06-27]]
+	- 10:10		CodeVS	1747		Number Theory, GCD
+	- 11:06		UVa		11806		Number Theory, IEP
+	- 11:55		HDU		1272		Union-Find Set
+	- 13:03		POJ		1988		Union-Find Set
+	- 13:18		CodeVS	1005		DFS
+	- 15:46		HDU		4497		Number Theory, IEP
+	- 16:47		POJ		1733		Union-Find Set & Hash
+	- 17:59		UVa		11462		Having Fun
+	- 19:33		POJ		1330		Tarjan, LCA
+	- 19:55		UVa		125			SP, Floyd
+	- 21:57		POJ		1091		Number Theory, IEP
+	- 00:48		POJ		1050		DP
+* [[2015-06-28]]
+	- 12:18		HDU		3038		Union-Find Set
+	- 16:48		HDU		2444		BPG Coloring & BPG Max Matching
+	- 17:09		POJ		1463		BPG Max Matching
+	- 17:44		POJ		3041		BPG	Max Matching & Modeling
+	- 23:58		CodeVS	1288		Iterative Deepening
+	- 00:20		POJ		3345		DP on Tree
+	- 00:28		POJ		1273		Max Flow
+	- 00:54		POJ		1459		Max Flow
+* [[2015-06-29]]
+	- 07:16		POJ		3140		DP on Tree
+	- 08:06		HDU		1028		DP, Number Division
+	- 11:15		POJ		3181		DP, Number Division, Big Integer
+	- 20:26		POJ		1698		Max Flow & Modeling
+	- 21:43		POJ		3617		Having Fun
+	- 22:42		POJ		3069		Greedy Method
+* [[2015-06-30]]
+	- 12:07		POJ		1845		Number Theory
+	- 13:30		POJ		2992		Number Theory
+	- 21:53		BZOJ	2186		Number Theory, Inverse
+	- 23:00		BZOJ	2190		Number Theory, Mobius
+* [[2015-07-01]]
+	- 08:44		POJ		1787		DP, Knapsack Problem
+	- 15:57		POJ		2923		DP, Knapsack Problem & State Compression
+	- 17:59		HDU		5072		Number Theory, IEP | Mobius
+	- 23:20		POJ		2184		DP, Knapsack Problem
+* 2015-07-02
+	- 18:43		CodeVS	1009		SP, Floyd
+* 2015-07-03
+	- 20:39		POJ		1018		DP, Knapsack Problem
+	- 21:08		CodeVS	1015		Having Fun
+	- 21:30		CodeVS	1019		Having Fun
+* [[2015-07-04]]
+	- 10:36		POJ		2226		BPG Max Matching & Modeling
+	- 11:54		POJ		1419		Max Clique
+	- 16:06		HDU		3585		Binary Checking & Max Clique
+	- 17:51		POJ		1129		Max Clique
+	- 23:28		CodeVS	1052		Greedy Method
+* [[2015-07-05]]
+	- 20:32		UVa		11069		Recursion
+	- 22:54		POJ		3692		BPG Max Clique
+	- 23:29		BZOJ	2005		Number Theory, Euler
+* 2015-07-06
+	- 11:39		POJ		1149		Max Flow & Modeling
+	- 19:44		POJ		1837		DP, Knapsack Problem
+	- 20:24		SPOJ	VLATTICE	Number Theory, Mobius
+* [[2015-07-07]]
+	- 09:04		POJ		1201		SP, SDC
+	- 17:39		POJ		1466		Having Fun & BPG Max Independent Set
+	- 18:19		POJ		1325		BPG Minimum Vertex Cover
+	- 21:24		POJ		3723		MST
+	- 22:09		POJ		3169		SP, SDC
+* [[2015-07-08]]
+	- 10:58		POJ		2594		SP, Floyd & BPG Minimum Path Cover
+	- 11:09		POJ		2060		BPG	Minimum Path Cover
+	- 12:00		HDU		3081		Max Flow & Modeling & Binary Checking
+	- 20:48		POJ		1548		Dilworth | BPG Minimum Path Cover & Modeling
+* 2015-07-09
+	- 20:08		POJ		1719		BPG Max Matching & Modeling
+	- 20:33		POJ		3216		BPG Minimum Path Cover
+* 2015-07-10
+	- 21:09		POJ		2186		SCC
+	- 21:57		POJ		2112		Max Flow & Binary Checking
+	- 22:55		POJ		2649		Number Theory
+* [[[[2015-07-11]]
+	- 11:01		POJ		2553		SCC
+* 2015-07-12
+	- 21:41		POJ		2446		BPG Max Matching & Modeling
+	- 22:31		POJ		1083		Having Fun & Greedy Method | Ad Hoc
+* [[2015-07-14]]
+	- 23:26		HDU		4725		SP & Modeling
+* [[2015-07-15]]
+	- 16:40		Ural	1076		BPWG Max Matching
+	- 21:42		HDU		2255		BPWG Max Matching
+	- 23:01		POJ		2195		BPWG Max Matching
+	- 23:43		CodeVS	1020		SP, Floyd & Having Fun
+	- 00:44		CodeVS	1021		SP
+* [[2015-07-16]]
+	- 17:49		BZOJ	2427		SCC & DP on Tree
+	- 22:19		POJ		3260		DP, Knapsack Problem
+* [[2015-07-17]]
+	- 23:41		POJ		3636		DP LIS NlogN & Dilworth
+* [[2015-07-18]]
+	- 11:01		POJ		2362		DFS
+	- 11:22		POJ		1011		DFS
+	- 19:43		SGU		199			DP LIS NlogN
+* [[2015-07-19]]
+	- 07:44		POJ		3254		DP, State Compression
+* [[2015-07-20]]
+	- 16:50		POJ		2455		Max Flow & Modeling
+	- 23:14		HDU		2686		MC Max Flow, SPFA
+* [[2015-07-21]]
+	- 08:41		POJ		3320		Monotone Nature
+	- 14:53		POJ		3061		Monotone Nature, Having Fun
+	- 15:39		SPOJ	GCJ1C09C	DP on Interval
+	- 17:53		SPOJ	ASSIGN		DP, State Compression
+	- 21:17		SPOJ	FIBOSUM		Matrix
+	- 23:24		ZOJ		3396		Steiner Tree & SP
+	- 00:13		SGU		499			Number Theory, Having Fun
+* [[2015-07-22]]
+	- 08:54		POJ		1659		Havel Principle
+	- 09:45		POJ		3680		MC Max Flow, SPFA & Modeling
+	- 16:59		UVa		1151		MST
+	- 20:17		BZOJ	1441		Bezout Theorem
+	- 22:31		POJ		2566		Monotone Nature
+	- 23:29		POJ		2739		Monotone Nature, Having Fun
+* [[2015-07-23]]
+	- 22:18		POJ		2914		Global Minimum Cut
+	- 22:55		BZOJ	3345		Global Minimum Cut
+* [[2015-07-24]]
+	- 20:07		POJ		3308		BPWG Minimum Vertex Cover
+	- 22:09		BZOJ	3038		BIT & Union-Find Set
+	- 22:12		BZOJ	3211		BIT & Union-Find Set
+	- 22:41		POJ		1185		DP, State Compression
+* [[2015-07-25]]
+	- 17:49		BZOJ	1475		BPWG Minimum Vertex Cover
+	- 18:09		POJ		1236		SCC
+	- 21:23		HDU		5067		DP, State Compression
+	- 21:31		POJ		3311		DP, State Compressoin
+	- 23:13		BZOJ	2330		SP, SDC
+* [[2015-07-26]]
+	- 17:17		POJ		2125		BPWG Minimum Vertex Cover & Minimum Cut & Modeling
+	- 20:03		POJ		2392		DP, Knapsack Problem
+	- 20:54		POJ		1742		DP
+	- 21:48		POJ		1724		SP, DP on Graph
+	- 23:24		UVa		10480		Minimum Cut
+* [[2015-07-27]]
+	- 19:32		HDU		1074		DP, State Compression
+	- 19:43		HDU		1565		DP, State Compression
+	- 21:42		SGU		194			Max Flow with Bound
+* 2015-07-28
+	- 20:31		POJ		1222		Gauss Elimination
+* [[2015-07-29]]
+	- 19:27		Ural	1204		Number Theory, CRT
+	- 21:21		POJ		3565		BPWG Max Matching & Modeling
+	- 21:54		BZOJ	1087		DP, State Compression
+	- 23:09		BZOJ	1202		Union-Find Set
+* [[2015-07-31]]
+	- 00:03		POJ		1741		Dividing on Tree
+	- 17:09		HDU		3887		Analog Stack & DFS-S & BIT
+	- 21:28		HDU		3966		Analog Stack & HLD & BIT
+* [[2015-08-01]]
+	- 08:13		POJ		2063		DP, Knapsack Problem
+	- 10:16		CSU		1216		Trie
+	- 12:35		POJ		1830		Gauss Elimination
+	- 15:23		POJ		3764		Trie
+	- 16:18		BZOJ	1491		SP, Floyd
+	- 17:08		HDU		4034		SP, Floyd
+	- 20:24		UVa		1508		DFS
+	- 20:40		UVa		725			Having Fun & DFS
+	- 00:10		POJ		3262		Greedy Method & Having Fun
+* [[2015-08-02]]
+	- 09:58		POJ		3009		DFS
+	- 11:23		ZOJ		2587		Minimum Cut
+	- 14:35		POJ		3204		Minimum Cut
+	- 15:47		ZOJ		3573		Ad Hoc, Trick
+	- 16:50		POJ		2230		Euler Path
+	- 19:31		POJ		2229		Recursion
+	- 20:50		ZOJ		3792		Minimum Cut
+	- 21:59		POJ		1157		DP & Having Fun
+* [[2015-08-03]]
+	- 10:42		CodeVS	1296		Splay
+	- 20:46		POJ		2449		Astar & SP, Kth SP & Dijkstra
+	- 21:54		POJ		3463		SP, Secondary SP & Dijkstra
+* 2015-08-04
+	- 08:27		CodeVS	1269		SP, Secondary SP & Dijkstra, Heap
+	- 12:13		POJ		2385		DP, Having Fun
+	- 19:03		POJ		3468		Splay
+	- 23:08		CodeVS	1041		SP
+* 2015-08-05
+	- 14:29		POJ		3616		DP & Having Fun
+	- 18:50		POJ		2724		BPG Max Matching & Modeling
+* [[2015-08-06]]
+	- 08:00		POJ		2393		Greedy Method
+	- 09:59		POJ		3040		Greedy Method
+	- 10:59		POJ		3662		SP, Dijkstra & Binary Checking
+	- 15:18		UVa		10837		Number Theory, Euler & DFS
+	- 16:12		POJ		3186		DP on Interval & Having Fun
+	- 21:31		POJ		2429		Number Theory, Miller-Rabin & Pollard-Rho
+	- 22:04		POJ		1930		Ad Hoc
+	- 23:19		POJ		3280		DP on Interval
+	- 00:33		POJ		2751		Greedy Method
+* 2015-08-07
+	- 09:14		ZOJ		2314		Max Flow with Bound
+	- 22:08		AOJ		2200		DP on Graph
+* [[2015-08-08]]
+	- 08:39		POJ		3046		DP
+	- 11:13		CodeVS	3294		Topological Sort
+	- 14:22		HDU		4324		SCC
+	- 15:46		HDU		1811		Topological Sort & Union-Find Set
+	- 17:24		POJ		1966		Max Flow
+	- 21:57		POJ		3687		Topological Sort & Greedy Method
+* [[2015-08-09]]
+	- 09:57		BZOJ	1101		Number Theory, Mobius & Block
+	- 10:41		POJ		1041		Euler Path & Having Fun
+	- 15:48		POJ		1029		Ad Hoc
+	- 16:33		POJ		1904		SCC & BPG
+	- 18:59		HDU		2419		Ad Hoc & Union-Find Set
+	- 22:05		HDU		4003		DP on Tree
+	- 22:51		ZOJ		3623		DP, Knapsack Problem
+	- 00:02		Luogu	1262		SCC
+* [[2015-08-10]]
+	- 09:15		BZOJ	3524		FST
+    - 15:46		POJ		2104		FST
+    - 17:09		POJ		3614		Greedy Method
+	- 21:01		BZOJ	3208		Memory Search
+* [[2015-08-11]]
+	- 08:04		POJ		2010		Greedy Method
+	- 11:51		HDU		1599		SP, Floyd
+	- 12:08		POJ		1734		SP, Floyd
+	- 15:44		CodeVS	3278		Having Fun
+	- 17:30		UVa		11134		Greedy Method
+	- 21:53		BZOJ	1079		Memory Search
+	- 23:56		Luogu	1282		DP
+* [[2015-08-12]]
+	- 09:19		HDU		1853		MC Max Flow & Modeling
+	- 10:55		HDU		2853		BPWG Max Matching
+	- 11:46		Luogu	1108		DP
+	- 20:03		Luogu	1280		Memory Search
+* [[2015-08-13]]
+	- 16:05		CodeVS	1574		Matrix
+	- 22:43		SGU		183			DP, Optimization
+	- 23:11		BZOJ	2697		Greedy Method
+* [[2015-08-14]]
+	- 09:40		POJ		3666		DP, Optimization
+	- 21:31		CF		501D		Cator & BIT & Binary Search
+	- 23:35		POJ		3276		Ad Hoc, Trick
+* [[2015-08-15]]
+	- 10:52		POJ		1151		Scan-Line & Segment Tree
+	- 11:46		HDU		3666		SP, SDC & Modeling
+	- 13:25		Luogu	1330		BPG Coloring
+	- 18:25		POJ		1275		SP, SDC & Modeling & Binary Checking
+* [[2015-08-16]]
+	- 09:11		Luogu	1074		DFS
+	- 22:40		BZOJ	1116		Union-Find Set
+* [[2015-08-17]]
+	- 18:00		HDU		4281		DP, State Compression
+	- 23:42		Luogu	1880		DP, Optimization
+* [[2015-08-18]]
+	- 10:04		POJ		3684		Ad Hoc, Physics
+	- 15:34		POJ		2663		Recursion
+	- 16:15		Luogu	1508		Having Fun
+	- 17:29		Luogu	1387		Having Fun
+	- 21:22		POJ		1523		BCC, Cut Vertex
+	- 21:55		POJ		1144		BCC, Cut Vertex
+	- 22:41		BZOJ	1624		Having Fun
+* [[2015-08-19]]
+	- 16:43		CodeVS	2161		Having Fun
+	- 17:46		BZOJ	1479		Minimum Cut, Closure
+	- 21:15		CodeVS	1233		Minimum Cut, Closure
+	- 22:56		Luogu	1417		Greedy Method & DP, Knapsack Problem
+* 2015-08-20
+	- 16:54		POJ		2369		Group Theory
+	- 21:24		POJ		1026		Group Theory
+* [[2015-08-21]]
+	- 10:11		POJ		2417		BSGS & Hash
+	- 11:30		CodeVS	3731		Having Fun
+	- 15:46		SPOJ	MOD			BSGS
+	- 16:23		BZOJ	2480		BSGS & Hash
+	- 23:46		POJ		3177		BCC, Cut Edge
+* [[2015-08-22]]
+	- 16:11		BZOJ	2730		BCC, Cut Vertex
+* [[2015-08-23]]
+	- 08:29		ZOJ		3524		DP on Graph
+	- 12:19		Luogu	1156		DP
+	- 15:17		UVa		10178		Planar Graph, Euler Formula
+	- 18:02		BZOJ	1001		Planar Graph, Max Flow & SP
+	- 21:37		POJ		1637		Max Flow, Mixed Euler Graph
+	- 23:15		BZOJ	4236		Monotone Nature
+* [[2015-08-24]]
+	- 10:13		UVa		1471		Monotone Nature
+	- 16:27		Luogu	1363		DFS
+	- 17:24		POJ		3694		Union-Find Set & BCC, Cut Edge
+	- 22:32		HDU		4612		BCC, Cut Edge & Diameter
+* [[2015-08-25]]
+	- 23:38		POJ		1112		DP & BPG Coloring
+* [[2015-08-26]]
+	- 12:00		CF		519E		2-Mul, LCA
+	- 21:34		Luogu	1066		Recursion & Big Integer
+	- 23:29		CF		27E			Number Theory, Anti-Prime
+	- 00:38		Ural	1748		Number Theory, Anti-Prime
+* [[2015-08-27]]
+	- 10:39		UVa		1451		Monotone Nature, Slope
+	- 00:32		BZOJ	1797		Minimum Cut & SCC
+* [[2015-08-28]]
+	- 11:15		Luogu	1095		Ad Hoc
+	- 17:28		Luogu	2258		DP, State Compression
+* [[2015-08-29]]
+	- 08:43		POJ		1182		Union-Find Set & Having Fun
+	- 12:59		CF		549H		Binary Checking
+	- 16:13		Luogu	1341		Euler Path
+	- 22:09		BZOJ	2561		Minimum Cut & MST
+    - 00:40     HDU     5248        Binary Checking & Having Fun
+* [[2015-08-30]]
+    - 09:51     POJ     1032        Greedy Method
+    - 12:36     Luogu   1120        DFS
+    - 18:19     POJ     2686        SP, DP on Graph
+* 2015-08-31
+    - 09:14     POJ     1417        Union-Find Set & DP
+    - 12:56     POJ     3613        DP, Matrix
+    - 17:13     CF      161D        DP on tree
+    - 23:28     BZOJ    1003        SP, Dijkstra & DP
+* [[2015-09-01]]
+    - 21:04     POJ     1780        Analog Stack & Euler Path
+* [[2015-09-03]]
+    - 16:02     HDU     1693        DP, Contour Line
+    - 23:47     POJ     2411        DP, State Compression
+* [[2015-09-04]]
+    - 12:07     BZOJ    1266        Minimum Cut
+    - 21:09     BZOJ    2654        Binary Checking & MST
+    - 21:10     BZOJ    1143        BPG, Max Independent Set
+* [[2015-09-05]]
+    - 09:38     POJ     3635        SP, DP on Graph
+    - 15:29     Luogu   1119        SP, Floyd
+    - 21:48     BZOJ    1053        Number Theory, Anti-Prime
+    - 23:11     Luogu   1268        Ad Hoc
+    - 00:11     Luogu   1197        Union-Find Set
+* [[2015-09-06]]
+    - 21:02     BZOJ    1002        Matrix-Tree
+    - 21:25     SPOJ    HIGH        Matrix-Tree & Gauss Elimination
+* [[2015-09-07]]
+    - 10:54     POJ     3017        DP, Optimization, Monotone Nature
+    - 15:42     POJ     3783        DP
+    - 21:09     POJ     2949        SP, SPFA, DFS & Fractional Programming
+* 2015-09-09
+    - 10:24     BZOJ    3624        MST
+    - 17:15     BZOJ    1016        MST & DFS
+    - 19:33     BZOJ    1066        Max Flow
+* [[2015-09-11]]
+    - 20:44     BZOJ    2811        Greedy Method
+    - 22:43     BZOJ    1046        DP
+    - 00:06     BZOJ    1045        Having Fun
+* [[2015-09-12]]
+    - 11:48     BZOJ    1093        SCC & DP
+    - 17:50     VOJ     1243        DP, Optimization, Monotone Nature
+    - 19:18     BZOJ    1026        DP, Digital Problem
+    - 20:13     BZOJ    1055        DP on Interval
+    - 21:03     BZOJ    1048        Memory Search
+* [[2015-09-13]]
+    - 08:34     HDU     3555        DP, Digital Problem
+    - 09:49     HDU     4352        DP, Digital Problem
+    - 18:57     HDU     3652        DP, Digital Problem
+    - 20:00     BZOJ    2788        SP, SDC & Floyd & SCC
+    - 23:00     BZOJ    1812        DP on Tree
+    - 23:48     BZOJ    2789        BIT
+* [[2015-09-14]]
+    - 10:47     BZOJ    2790        Number Theory
+    - 16:20     BZOJ    4127        HLD & Segment Tree
+    - 17:32     BZOJ    2783        Ad Hoc
+    - 21:06     BZOJ    1010        Monotone Nature, Slope
+    - 23:36     BZOJ    1096        Monotone Nature, Slope
+* 2015-09-15
+    - 16:00     BZOJ    1597        Monotone Nature, Slope
+    - 22:22     BZOJ    1801        DP
+* [[2015-09-16]]
+    - 06:47     BZOJ    3626        HLD & Segment Tree
+    - 07:39     LIG     1422        DP on Interval
+    - 12:40     Luogu   1373        DP
+    - 15:54     Luogu   2279        Greedy Method
+    - 18:50     BZOJ    1911        Monotone Nature, Slope
+    - 20:25     Luogu   1220        DP on Interval
+    - 22:58     BZOJ    1880        SP, SP Graph
+* [[2015-09-17]]
+    # 08:56     BZOJ    1040        DP, Cyclic Tree
+* 2015-09-18
+    - 07:25     POJ     3734        DP, Matrix
+    # 15:13     BZOJ    2792        Binary Checking & Greedy Method
+    - 18:51     POJ     1679        MST
+* [[2015-09-19]]
+    - 08:18     POJ     1769        DP, Optimization
+    - 22:20     BZOJ    1070        MC Max Flow, Dijkstra
+* 2015-09-20
+    # 11:25     BZOJ    2438        SCC
+    - 12:16     POJ     2096        DP, Probability
+    - 20:49     POJ     1639        MST
+* [[2015-09-20]]
+    - 10:04     BZOJ    1901        Combotree, FST & BIT
+    - 17:11     BZOJ    2118        SP, Dijkstra & Number Theory
+    - 18:54     ZOJ     3662        DP
+    - 21:54     BZOJ    1977        2-Mul, LCA & MST
+* [[2015-09-21]]
+    - 18:17     BZOJ    2525        Greedy Method
+    - 20:00     SGU     507         Heuristic Merging
+* [[2015-09-22]]
+    - 16:02     POJ     2175        MC Max Flow, Native Cycle
+    - 21:32     BZOJ    1031        Suffix Array
+* 2015-09-23
+    - 15:21     POJ     1743        Suffix Array
+* 2015-09-24
+    - 07:58     BZOJ    3156        Monotone Nature, Slope
+    - 19:05     BZOJ    3295        Combotree, FST & BIT
+* 2015-09-25
+    - 07:27     BZOJ    2200        Topological Sort & SP, Dijkstra
+    - 10:02     BZOJ    4008        DP, Probability
+    - 18:05     BZOJ    1503        Splay
+    - 21:33     CF      559C        Combination Math
+    - 23:50     CF      576B        Construction
+* [[2015-09-26]]
+    - 12:24     BZOJ    2282        Monotone Nature & Diameter on Tree
+    - 21:22     POJ     3621        SP, SPFA, DFS & Fractional Programming
+* 2015-09-27
+    - 23:57     BZOJ    3261        Fractional Trie
+* 2015-09-28
+    - 11:21     BZOJ    1485        Catalan Sequence
+    - 12:04     BZOJ    4260        Fractional Trie
+    - 16:51     BZOJ    2440        Number Theory, IEP | Mobius & Block
+    - 21:29     SGU     176         Max Flow with Bound, Minimum Flow
+    - 22:32     BZOJ    3876        MC Max Flow with Bound
+* 2015-09-29
+    - 08:14     BZOJ    1458        Max Flow
+    - 16:00     BZOJ    2467        Matrix-Tree | Combination Math
+    - 18:17     POJ     2406        KMP
+    - 20:22     POJ     3461        KMP
+* 2015-09-30
+    - 18:13     HDU     1814        2-SAT
+* [[2015-10-01]]
+    - 09:31     POJ     3207        2-SAT
+    - 11:08     BZOJ    3207        FST & Hash
+    - 20:14     BZOJ    2238        MST
+* 2015-10-02
+    - 11:30     POJ     3420        DFS & Matrix
+    - 12:51     POJ     1740        Game Theory
+    - 15:35     BZOJ    2021        DP, Knapsack Problem
+    - 16:37     BZOJ    1874        Game Theory, SG
+    - 19:43     BZOJ    3916        Hash
+    - 21:44     BZOJ    3831        DP, Optimization, Monotone Nature
+* 2015-10-03
+    - 09:37     Luogu   1169        DP & Monotone Nature
+    - 17:14     BZOJ    1058        Splay & Segment Tree
+    - 18:07     BZOJ    3155        BIT
+* 2015-10-05
+    - 16:39     BZOJ    3939        DP, Optimization, Segment Tree
+    # 22:12     BZOJ    3609        Ad Hoc
+* 2015-10-06
+    - 09:33     POJ     3678        2-SAT
+    - 15:19     BZOJ    3931        Max Flow & SP, SP Graph
+    - 17:15     BZOJ    1832        2-Mul, LCA
+    - 21:45     SGU     122         Hamilton Cycle
+    - 23:49     BZOJ    1997        Planar Graph & 2-SAT
+* [[2015-10-07]]
+    - 11:51     BZOJ    1563        DP, Optimization
+    - 20:47     BZOJ    2588        2-Mul, LCA & Segment Tree
+* 2015-10-08
+    - 12:41     BZOJ    2002        LCT
+    - 18:25     BZOJ    3545        Monotone Nature
+    - 23:01     BZOJ    1103        DFS-S & BIT
+    - 01:33     BZOJ    1109        DP LIS NlogN
+* 2015-10-09
+    - 00:04     BZOJ    1018        Segment Tree
+* 2015-10-11
+    - 20:22     Luogu   1092        DFS
+* 2015-10-12
+    - 19:34     BZOJ    1146        DFS-S & Combotree, FST & BIT
+* [[2015-10-13]]
+    - 17:30     CodeVS  1285        Splay
+    - 19:53     BZOJ    1600        DP
+    - 23:54     BZOJ    1499        DP, Optimization
+* 2015-10-14
+    - 16:54     CodeVS  3303        Splay
+    - 18:25     BZOJ    4247        DP, Knapsack Problem
+* 2015-10-15
+    - 08:59     BZOJ    2127        Max Flow
+    - 17:39     BZOJ    1052        DFS
+    - 22:56     POJ     2228        DP
+* 2015-10-17
+    - 10:37     CF      587B        DP
+    - 16:49     POJ     2752        KMP
+    - 23:05     POJ     3450        KMP
+* 2015-10-18
+    - 17:21     BZOJ    2049        LCT
+    - 21:20     BZOJ    1798        Segment Tree
+* [[2015-10-19]]
+    - 11:07     BZOJ    2631        LCT
+    - 19:35     BZOJ    3875        DP on Graph
+    - 23:15     BZOJ    1226        DP, State Compression
+* 2015-10-20
+    - 14:31     BZOJ    1060        DP on Tree & Analog Stack
+    - 16:47     BZOJ    3036        DP, Probability
+    - 19:33     BZOJ    4300        Ad Hoc
+    - 21:31     UVa     11542       Gauss Elimination
+    - 00:22     Luogu   2216        Having Fun
+* 2015-10-21
+    - 13:10     UVa     1401        Trie & DP
+    - 00:29     Luogu   1081        DP & 2-Mul
+* [[2015-10-22]]
+    - 09:42     HDU     2222        AC Automation
+    - 18:02     BZOJ    1084        DP
+    - 21:14     Luogu   1801        Heap | BST
+    - 00:25     HDU     3065        AC Automation
+* 2015-10-23
+    - 16:52     BZOJ    1876        Big Integer
+    - 21:33     BZOJ    1878        BIT & Off Line
+    - 22:38     Luogu   2161        Ad Hoc
+* 2015-10-24
+    - 10:57     Luogu   2278        Heap
+    - 12:11     Luogu   2085        Having Fun
+    - 16:21     UVa     10859       DP on Tree
+    - 22:20     BZOJ    3357        DP
+    - 01:30     BZOJ    3887        SCC & Topological Sort
+* [[2015-10-25]]
+    - 16:47     UVa     1169        DP, Optimization, Monotone Nature
+* 2015-10-26
+    - 10:59     Luogu   2148        Game Theory, SG
+    - 23:00     Luogu   1941        DP
+    - 00:15     CF      590A        Ad Hoc
+* 2015-10-27
+    - 11:50     Luogu   1357        Matrix
+    - 01:38     BZOJ    1856        Combination Math
+* [[2015-10-28]]
+    - 12:25     POJ     2942        BCC & BPG Coloring
+    - 21:56     Luogu   2261        Number Theory & Block
+* 2015-10-29
+    - 11:53     BZOJ    1227        BIT
+    - 16:19     BZOJ    3720        Block on Tree
+    - 00:33     BZOJ    2521        Minimum Cut & MST
+* 2015-10-30
+    - 19:44     Luogu   2320        Ad Hoc
+    - 21:53     Luogu   1901        Monotone Nature
+* 2015-10-31
+    - 17:46     Luogu   1084        Greedy Method
+* 2015-11-01
+    - 10:36     BZOJ    2733        Splay, Heuristic Merging
+    - 16:00     HDU     4812        Dividing on Tree
+    - 17:48     HDU     5029        HLD & Segment Tree
+    - 20:26     BZOJ    3505        Combination Math
+* 2015-11-02
+    - 17:19     BZOJ    2453        Block
+    - 21:15     BZOJ    1303        Ad Hoc
+    - 22:23     POJ     3208        DP, Digital Problem
+* 2015-11-03
+    - 10:50     CF      543D        DP on Tree
+    - 19:56     POJ     1015        DP, Knapsack Problem
+* [[2015-11-04]]
+    - 10:19     POJ     2549        Hash
+    - 11:59     POJ     2286        Iterative Deepening
+* 2015-11-07
+    - 17:16     CF      543C        DP, State Compression
+    - 21:50     BZOJ    1231        DP, State Compression
+* [[2015-11-08]]
+    - 20:39     BZOJ    1232        MST
+* 2015-11-14
+    - 23:20     BZOJ    1124        Ad Hoc
+* [[2015-11-22]]
+    - 16:20     BZOJ    3551        FST & Kruskal
+    - 19:40     BZOJ    1233        DP, Monotone Nature
+    - 23:30     BZOJ    1180        LCT
+* 2015-11-28
+    - 18:20     BZOJ    4102        DP
+* 2015-11-29
+    - 10:36     BZOJ    3670        KMP
+* 2015-11-30
+    - 23:33     BZOJ    2594        LCT
+* 2015-12-06
+    - 10:52     CF      555B        Greedy Method
+* 2015-12-09
+    - 19:15     BZOJ    2763        DP on Graph
+    - 23:32     BZOJ    3669        SP
+* 2015-12-10
+    - 23:12     UVa     1422        Greedy Method
+* 2015-12-14
+    - 22:19     POJ     2774        Suffix Array
+* 2015-12-17
+    - 20:38     BZOJ    3714        MST
+    - 22:51     BZOJ    1571        DP
+* 2015-12-26
+    - 20:02     BZOJ    3083        DFS-S & Segment Tree
+* [[2016-01-17]]
+    - 10:39     BZOJ    3196        Segment Tree + Splay
+* 2016-01-25
+    - 23:04     BZOJ    1857        Triple Method
+* 2016-01-31
+    - 16:46     BZOJ    3514        LCT & FST
+* 2016-02-14
+    - 22:35     BZOJ    1923        Gauss Elimination
+* [[2016-03-16]]
+    - 10:56     BZOJ    2725        SP Graph & Dijkstra & Heap
+    - 17:20     BZOJ    2527        Ensemble Bisection
+* [[2016-03-17]]
+    - 23:21     BZOJ    3282        LCT
+* [[2016-03-19]]
+    - 07:12     BZOJ    3091        LCT
+    - 10:21     HDU     3068        Manacher
+    - 17:49     BZOJ    3790        Manacher & Greedy Method
+    - 21:24     BZOJ    2342        Manacher
+    - 23:54     BZOJ    2085        DP, Matrix & Hash
+* [[2016-03-24]]
+    - 14:47     HDU     5008        Suffix Array & ST-Table
+* 2016-03-27
+    - 09:11     POJ     3693        Suffix Array
+* 2016-03-31
+    - 16:20     POJ     3415        Suffix Array
+* [[2016-04-01]]
+    - 09:50     BZOJ    1770        Gauss Elimination
+    - 11:59     HDU     3949        Gauss Elimination
+* 2016-04-02
+    - 10:00     POJ     2007        Geometry
+    - 18:55     BZOJ    1984        HLD
+* 2016-04-03
+    - 23:21     UVa     11178       Geometry
+* 2016-04-04
+    - 11:59     BZOJ    2759        LCT & Number Theory
+* 2016-04-09
+    - 21:15     BZOJ    1584        DP
+* [[2016-04-12]]
+    - 07:46     POJ     2420        SA, Fermat Point
+    - 14:25     POJ     2069        SA, Minimum Enclosing Ball
+    - 21:45     BZOJ    2400        Max Flow, Minimum Cut
+* [[2016-04-14]]
+    - 19:35     POJ     3155        Max Flow, Maximum Density Subgraph
+* 2016-04-16
+    - 18:23     BZOJ    1702        Hash & Ad Hoc
+    - 20:50     BZOJ    1683        Monotone Structure
+    - 21:36     BZOJ    1652        DP
+    - 22:07     BZOJ    2101        DP
+    - 23:04     BZOJ    2023        DP
+* [[2016-04-17]]
+    - 11:13     HDU     2896        AC Automation
+    - 21:11     BZOJ    2888        Centroid & LCT & Heuristic Merging
+* 2016-04-19
+    - 07:24     BZOJ    1705        DP
+    - 20:51     BZOJ    4403        Combination Math, Lucas
+* 2016-04-20
+    - 08:41     HDU     1512        Mergeable Heap
+    - 14:11     BZOJ    1783        DP
+* 2016-04-23
+    - 10:00     HDU     1115        Geometry, Centroid
+* 2016-04-24
+    - 10:51     BZOJ    1578        DP
+* 2016-04-25
+    - 23:21     BZOJ    1914        Geometry
+* 2016-04-29
+    - 15:20     BZOJ    1014        Splay
+* 2016-05-08
+    - 23:33     BZOJ    4003        Mergeable Heap
+* 2016-05-13
+    - 21:15     POJ     1625        DP, AC Automation
+* 2016-05-14
+    - 20:19     POJ     3691        DP, AC Automation
+* 2016-05-29
+    - 19:23     BZOJ    1778        Gauss Elimination, Probability
+* 2016-06-02
+    - 23:04     BZOJ    2017        DP
+* 2016-06-04
+    - 22:49     BZOJ    1685        Greedy Method
+* 2016-06-06
+    - 19:53     BZOJ    2621        DP
+
+## Conclusion ?
+
